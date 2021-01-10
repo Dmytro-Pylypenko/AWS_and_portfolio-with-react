@@ -20,77 +20,19 @@
     background-position: 100%;
   }
 }
-.h {
+.title {
   font-size: xx-large;
   padding-top: 200px;
   color: white;
   padding-bottom: 20px;
   font-weight: bold;
 }
-.me img {
-  margin: 60px 0 60px;
-  height: 400px;
-  width: 400px;
-  border-radius: 50px;
-}
-.projects {
-  display: flex;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  justify-content: space-between;
-  margin: 50px 0;
-}
-.list {
-  padding-bottom: 10px;
-  display: block;
-  width: 100px;
-  height: 100px;
-}
-.projects a {
-  text-decoration: none;
-}
-.contacts {
-  background-color: violet;
-}
-.contact {
-  display: flex;
-  justify-content: space-between;
-}
-.mail {
-  margin: 45px 15px 45px 15px;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: normal;
-  cursor: pointer;
-}
-.mail a {
-  padding: 10px 5px 10px 5px;
-  border: 2px #a71717 solid;
-  text-decoration: none;
-}
-.phone{
-  margin-right: 10px;
-  border-radius: 50%;
-}
-.email{
-  margin-right: 10px;
-}
-.skills {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 15px;
-}
-.skills__title {
-  font-size: xx-large;
-  color: black;
-  margin-bottom: 35px;
-}
-.skill {
-  color: black;
-  min-width: 400px;
+@media (max-width: 600px) {
+  .title {
+      display: block;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 40px;  
+  }
 }
 
-.skill__title{
- padding: 15px;
-}

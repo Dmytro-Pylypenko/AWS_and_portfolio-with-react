@@ -1,0 +1,36 @@
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+.skills__title {
+    font-size: xx-large;
+    color: black;
+    margin-bottom: 35px;
+}
+.skill {
+    color: black;
+    min-width: 300px;
+}
+
+.skill__title {
+    padding: 15px;
+    font-size: x-large;
+}
+
+@media (max-width: 1260px) {
+    .skills {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 460px) {
+    .skills {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+}

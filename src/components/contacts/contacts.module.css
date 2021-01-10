@@ -1,0 +1,43 @@
+.contacts {
+    background-color: violet;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+.mail,
+.phone {
+    margin: 45px 15px 45px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    padding: 10px 5px 10px 5px;
+    border: 2px #a71717 solid;
+}
+.email {
+    margin-right: 10px;
+}
+.img__phone,
+.img__email {
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    .contact {
+        display: block;
+        padding: 5px;
+    }
+    .mail,
+    .phone {
+        margin: 5px;
+        font-size: 10px;
+    }
+    .img__phone,
+    .img__email {
+        width: 20px;
+        height: 20px;
+    }
+}

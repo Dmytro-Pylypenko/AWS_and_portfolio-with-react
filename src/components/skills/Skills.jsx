@@ -1,5 +1,5 @@
 import React from 'react';
-import head from "./Header.module.css"
+import head from "./skills.module.css"
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 
