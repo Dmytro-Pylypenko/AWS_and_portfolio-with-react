@@ -6,10 +6,18 @@
 .projects {
     display: flex;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 15px;
     justify-content: space-between;
-    margin: 50px 0;
+    margin-bottom: 120px;
+}
+.projects__title {
+    font-size: xx-large;
+    color: black;
+    margin-bottom: 15px;
+}
+.project__title {
+    font-size: 20px;
 }
 .list {
     padding-bottom: 10px;
@@ -22,10 +30,16 @@
 }
 @media (max-width: 600px) {
     .projects {
-        margin: 30px;
+        margin: 30px 30px;
     }
     .projects img {
         width: 60px;
         height: 60px;
+    }
+    .projects__title {
+        font-size: x-large;
+    }
+    .project__title {
+        font-size: 10px;
     }
 }

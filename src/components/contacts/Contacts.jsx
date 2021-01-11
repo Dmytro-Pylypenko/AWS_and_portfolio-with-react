@@ -1,8 +1,8 @@
 import React from 'react';
 import Email from './Email';
 import Phone from './Phone';
-import head from "./contacts.module.css"
-import ScrollUpButton from "react-scroll-up-button";
+import head from "./contacts.module.css";
+import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
 
 let Contacts = () => {
     return (

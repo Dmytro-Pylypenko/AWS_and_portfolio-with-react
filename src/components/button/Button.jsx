@@ -6,7 +6,7 @@ class Button extends React.Component {
   render() {
     return (
       <div className={Style.button}>
-        <Link  to="me" spy={true} smooth={true}>clickkkkk</Link>
+        <Link  to="me" spy={true} smooth={true}>Explore me</Link>
       </div>
 
     )

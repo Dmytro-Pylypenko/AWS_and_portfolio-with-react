@@ -29,10 +29,9 @@
 }
 @media (max-width: 600px) {
   .title {
-      display: block;
-      margin-left: 10px;
-      margin-right: 10px;
-      font-size: 40px;  
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
   }
 }
-
