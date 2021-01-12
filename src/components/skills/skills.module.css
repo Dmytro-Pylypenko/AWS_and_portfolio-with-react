@@ -11,6 +11,7 @@
 .skill {
     color: black;
     min-width: 400px;
+    margin-right: 35px;
 }
 
 .skill__title {
@@ -40,6 +41,7 @@
     }
     .skill {
         min-width: 300px;
+        margin-right: 5px;
     }
     .skills__title {
         font-size: x-large;

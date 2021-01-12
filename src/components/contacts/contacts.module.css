@@ -4,6 +4,7 @@
 .contact {
     display: flex;
     justify-content: space-around;
+    
 }
 .mail,
 .phone {
@@ -13,17 +14,20 @@
     font-weight: normal;
     cursor: pointer;
     padding: 10px 5px 10px 5px;
-    border: 2px #a71717 solid;
+    
 }
 .email {
     margin-right: 10px;
 }
 .img__phone,
 .img__email {
-    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;
+    color: black;
 }
 @media (max-width: 600px) {
     .contact {

@@ -10,7 +10,7 @@ class Me extends React.Component {
                     <img src={publicUrl + "assets/img/me.jpg"} alt="" />
                 </div>
                 <div className={me__style.about__text}>
-                    <p className={me__style.me__text}>I'm an enthusiastic and detail-oriented Frontend developer seeking an entry-level position with
+                    <p className={me__style.me__text}>Hi, my name is <span>Dima</span> and i'm an enthusiastic and detail-oriented Frontend developer seeking an entry-level position with
                     Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely
                           completion of projects.</p>
                 </div>
